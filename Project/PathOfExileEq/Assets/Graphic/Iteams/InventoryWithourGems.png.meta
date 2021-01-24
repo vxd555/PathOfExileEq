@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 19690b585d0025e4da75763aa628fc5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1634934418323711775
+    second: Zrzut ekranu (219)_0
+  - first:
+      213: -9096377082940238324
+    second: Zrzut ekranu (219)_1
+  - first:
+      213: 5320264753319089860
+    second: Zrzut ekranu (219)_2
+  - first:
+      213: 5100722262473905737
+    second: Zrzut ekranu (219)_7
+  - first:
+      213: 861639084495228526
+    second: Zrzut ekranu (219)_9
+  - first:
+      213: -2021330204815440659
+    second: Zrzut ekranu (219)_10
+  - first:
+      213: 8397258134989690781
+    second: Zrzut ekranu (219)_13
+  - first:
+      213: 2235443124277792707
+    second: Zrzut ekranu (219)_14
+  - first:
+      213: 6826971405643712417
+    second: Zrzut ekranu (219)_16
+  - first:
+      213: -4397195688718030978
+    second: Zrzut ekranu (219)_17
+  - first:
+      213: -1607618269144034824
+    second: Zrzut ekranu (219)_21
+  - first:
+      213: 7264961498068922730
+    second: Zrzut ekranu (219)_25
+  - first:
+      213: -3475543567155402343
+    second: Zrzut ekranu (219)_27
+  - first:
+      213: -406456398975877316
+    second: Zrzut ekranu (219)_28
+  - first:
+      213: 1050704494887617065
+    second: Zrzut ekranu (219)_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 55
+        width: 94
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17ae33f03470b610800000000000000
+      internalID: 1634934418323711775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 201
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d75cdc3d23c180800000000000000
+      internalID: -9096377082940238324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 152
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c69d9cea9065d940800000000000000
+      internalID: 5320264753319089860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 104
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9461fa87fd769c640800000000000000
+      internalID: 5100722262473905737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 105
+        width: 97
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e4ee3ae2825fb00800000000000000
+      internalID: 861639084495228526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_10
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 153
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4453063eac2f3e0800000000000000
+      internalID: -2021330204815440659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 55
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d15f78cd098470800000000000000
+      internalID: 8397258134989690781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 55
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfca2a7da3e50f10800000000000000
+      internalID: 2235443124277792707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_16
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 55
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7842592564ebe50800000000000000
+      internalID: 6826971405643712417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 104
+        width: 97
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77251681d50af2c0800000000000000
+      internalID: -4397195688718030978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 55
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1dd35a3b790b9e0800000000000000
+      internalID: -1607618269144034824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 6
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61b947bdf352d460800000000000000
+      internalID: 7264961498068922730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_27
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 56
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999ee463a8364cfc0800000000000000
+      internalID: -3475543567155402343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 7
+        width: 96
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fbb520f0afb5af0800000000000000
+      internalID: -406456398975877316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zrzut ekranu (219)_29
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 6
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922cea5db2ad49e00800000000000000
+      internalID: 1050704494887617065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
