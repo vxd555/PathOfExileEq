@@ -1204,6 +1204,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1891551487}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
+      propertyPath: _basicObject
+      value: 
+      objectReference: {fileID: 1891551487}
+    - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
       propertyPath: _statsCompare
       value: 
       objectReference: {fileID: 1923250903}
@@ -2997,6 +3001,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1891551487}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
+      propertyPath: _basicObject
+      value: 
+      objectReference: {fileID: 1891551487}
+    - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
       propertyPath: _equipPosition
       value: 
       objectReference: {fileID: 276288068}
@@ -3343,6 +3351,10 @@ PrefabInstance:
       objectReference: {fileID: 496682030}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
       propertyPath: _basicObcjet
+      value: 
+      objectReference: {fileID: 1891551487}
+    - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
+      propertyPath: _basicObject
       value: 
       objectReference: {fileID: 1891551487}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
@@ -4561,6 +4573,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
       propertyPath: _basicObcjet
+      value: 
+      objectReference: {fileID: 1891551487}
+    - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
+      propertyPath: _basicObject
       value: 
       objectReference: {fileID: 1891551487}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
@@ -6019,6 +6035,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
       propertyPath: _basicObcjet
+      value: 
+      objectReference: {fileID: 1891551487}
+    - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}
+      propertyPath: _basicObject
       value: 
       objectReference: {fileID: 1891551487}
     - target: {fileID: -2867033498265346612, guid: 47c2c2c8e75bbfa4cafd8e22ba79a80b, type: 3}

@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: d34b9bd8bc441bf4ea995f930a1db69a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -977381496761721424
+    second: Path of Exile 20.01.2021 17_01_35_0
+  - first:
+      213: 6217954095320331171
+    second: Path of Exile 20.01.2021 17_01_35_1
+  - first:
+      213: -422315389140912888
+    second: Path of Exile 20.01.2021 17_01_35_2
+  - first:
+      213: 2155799772164633768
+    second: Path of Exile 20.01.2021 17_01_35_3
+  - first:
+      213: 4175154925537733821
+    second: Path of Exile 20.01.2021 17_01_35_4
+  - first:
+      213: 4661103753521388303
+    second: Path of Exile 20.01.2021 17_01_35_5
+  - first:
+      213: 4796699265208956114
+    second: Path of Exile 20.01.2021 17_01_35_7
+  - first:
+      213: 4368807118417052190
+    second: Path of Exile 20.01.2021 17_01_35_13
+  - first:
+      213: 7932062969622640283
+    second: Path of Exile 20.01.2021 17_01_35_16
+  - first:
+      213: -3123461136359613122
+    second: Path of Exile 20.01.2021 17_01_35_20
+  - first:
+      213: 9015487236992428209
+    second: Path of Exile 20.01.2021 17_01_35_21
+  - first:
+      213: 4342135577436170775
+    second: Path of Exile 20.01.2021 17_01_35_23
+  - first:
+      213: -4049556473920328631
+    second: Path of Exile 20.01.2021 17_01_35_25
+  - first:
+      213: -6603443371539970868
+    second: Path of Exile 20.01.2021 17_01_35_27
+  - first:
+      213: -1153945655167625125
+    second: Path of Exile 20.01.2021 17_01_35_28
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +86,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +120,336 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 97
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd5a7305b4af62f0800000000000000
+      internalID: -977381496761721424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 197
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3f0493e4c9a4650800000000000000
+      internalID: 6217954095320331171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 149
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805331f1462a32af0800000000000000
+      internalID: -422315389140912888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 102
+        width: 99
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4bdba8870faed10800000000000000
+      internalID: 2155799772164633768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 148
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc26eaa84121f930800000000000000
+      internalID: 4175154925537733821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 100
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bd1e11b219fa040800000000000000
+      internalID: 4661103753521388303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 48
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d43825519c419240800000000000000
+      internalID: 4796699265208956114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 51
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1242716dee11ac30800000000000000
+      internalID: 4368807118417052190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_16
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 51
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b963368be39541e60800000000000000
+      internalID: 7932062969622640283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 52
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d1c8135ac37a4d0800000000000000
+      internalID: -3123461136359613122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_21
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 52
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8600e30e17d1d70800000000000000
+      internalID: 9015487236992428209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_23
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a2ba35d4d524c30800000000000000
+      internalID: 4342135577436170775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c681aa7d51dc7c0800000000000000
+      internalID: -4049556473920328631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 52
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4c3f87d3bdb54a0800000000000000
+      internalID: -6603443371539970868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Path of Exile 20.01.2021 17_01_35_28
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1
+        width: 96
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58d0ad5a8c5cffe0800000000000000
+      internalID: -1153945655167625125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
