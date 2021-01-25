@@ -12,6 +12,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     [SerializeField] private RectTransform _equipPosition;
     [SerializeField] private Camera _camera;
     [SerializeField] private Sprite[] _images;
+    [SerializeField] private Sprite[] _imagesNoGems;
     [SerializeField] private Image _stats;
     [SerializeField] private Image _statsCompare;
     [SerializeField] private Item _otherItem;
@@ -24,6 +25,10 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     public bool isOver = false;
+    public bool showGems = false;
+
+    private Sprite[] Images  =>  !showGems && _imagesNoGems?.Length > 0 ? _imagesNoGems : _images;
+    private Sprite ItemImage => equiped ? Images[1] : Images[0];
 
 
     void Awake()
@@ -69,21 +74,21 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 	{
 		transform.position = initialPosition;
 		equiped = false;
-		gameObject.GetComponent<Image>().sprite = _images[0];
+		gameObject.GetComponent<Image>().sprite = Images[0];
 	}
 
 	public void Equip()
 	{
 		transform.position = _equipPosition.position;
 		equiped = true;
-		gameObject.GetComponent<Image>().sprite = _images[1];
+		gameObject.GetComponent<Image>().sprite = Images[1];
 	}
 
 	public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
-        gameObject.GetComponent<Image>().sprite = _images[1];
+        gameObject.GetComponent<Image>().sprite = Images[1];
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -108,6 +113,9 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         Debug.Log("Mouse enter");
         isOver = true;
 
+        showGems = true;
+        gameObject.GetComponent<Image>().sprite = ItemImage;
+
         if (_otherItem != null && _otherItem.equiped)
             _statsCompare.gameObject.SetActive(true);
         else
@@ -118,6 +126,9 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     {
         Debug.Log("Mouse exit");
         isOver = false;
+
+        showGems = false;
+        gameObject.GetComponent<Image>().sprite = ItemImage;
 
         if (_statsCompare != null && _statsCompare.gameObject.activeSelf)
             _statsCompare.gameObject.SetActive(false);
