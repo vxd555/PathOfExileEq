@@ -68,6 +68,19 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 				}
 			}
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        {
+            Debug.Log("Key down");
+            showGems = true;
+            gameObject.GetComponent<Image>().sprite = ItemImage;
+        }
+        else if(Input.GetKeyUp(KeyCode.LeftAlt))
+        {
+            Debug.Log("Key up");
+            showGems = false;
+            gameObject.GetComponent<Image>().sprite = ItemImage;
+        }
     }
 
 	public void Unequip()
