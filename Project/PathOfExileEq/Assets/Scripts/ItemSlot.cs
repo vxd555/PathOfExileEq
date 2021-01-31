@@ -13,8 +13,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         
         if(eventData.pointerDrag != null && eventData.pointerDrag.GetComponent<ItemType>().type == slotType)
         {
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
-            eventData.pointerDrag.GetComponent<Item>().equiped = true;
+            eventData.pointerDrag.GetComponent<Item>().Equip(GetComponent<RectTransform>().anchoredPosition);            
         }
     }
 }

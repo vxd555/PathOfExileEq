@@ -70,7 +70,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 				{
                     if(_otherItem != null && _otherItem.equiped)
                         _otherItem.Unequip();
-					Equip();
+					Equip(_equipPosition.anchoredPosition);
 				}
 				else
 				{
@@ -95,26 +95,30 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
 	public void Unequip()
 	{
-		transform.position = initialPosition;
-		equiped = false;
-		gameObject.GetComponent<Image>().sprite = Images[0];
-        if (backPack.findFirstValidSlot(this))
+		
+        if (backPack.FindFirstValidSlot(this))
         {
             for (int i = 0; i < width; i++)
                 for (int j = 0; j < heigth; j++)
                 {
                     backPack.eqipSlot[slotID + j + i * 5] = true;
                 }
+            equiped = false;
+            gameObject.GetComponent<Image>().sprite = Images[0];
             Vector3 pos = backPack.GetComponent<RectTransform>().localPosition;
             pos.x += 5 + (slotID/5) * 50;
             pos.y -= 5 + (slotID%5) * 50;
            GetComponent<RectTransform>().localPosition = pos;
         }
+        else
+        {
+            Debug.Log("False");
+        }
     }
 
-	public void Equip()
+	public void Equip(Vector2 pos)
 	{
-        GetComponent<RectTransform>().localPosition = _equipPosition.position;
+        GetComponent<RectTransform>().anchoredPosition = pos;
 		equiped = true;
 		gameObject.GetComponent<Image>().sprite = Images[1];
         for (int i = 0; i < width; i++)

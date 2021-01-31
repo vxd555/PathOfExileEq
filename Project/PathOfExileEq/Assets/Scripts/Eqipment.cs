@@ -15,7 +15,7 @@ public class Eqipment : MonoBehaviour, IDropHandler
        
     }
 
-    public bool findFirstValidSlot(Item item)
+    public bool FindFirstValidSlot(Item item)
     {
         for(int i=0; i<eqipSlot.Length; ++i)
         {
@@ -24,12 +24,26 @@ public class Eqipment : MonoBehaviour, IDropHandler
                 bool avi = false;
                 for(int j=0; j<item.heigth;++j)
                 {
+                    item.slotID = i;
+                    avi = true;
+
                     if (i + j > eqipSlot.Length)
                     {
                         avi = false;
                         break;
                     }
-                    if (i / 5 != (i + j) / 5 && eqipSlot[i+j])
+                    if (i / 5 != (i + j) / 5 )
+                    {
+                        avi = false;
+                        break;
+                    }
+
+                    if(eqipSlot[i+j])
+                    {
+                          avi = false;
+                          break;  
+                    }
+                    if (item.width == 2 && i + j + 5 > eqipSlot.Length)
                     {
                         avi = false;
                         break;
@@ -40,25 +54,12 @@ public class Eqipment : MonoBehaviour, IDropHandler
                             avi = false;
                             break;
                         }
-                    item.slotID = i;
-                    avi = true;
+                    
                 }
                 if (avi)
                     return true;
             }
         }
         return false;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
