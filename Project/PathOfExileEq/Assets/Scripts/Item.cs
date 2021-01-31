@@ -17,6 +17,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     [SerializeField] private Image _statsCompare;
     [SerializeField] private Item _otherItem;
     public bool equiped;
+    public int slotID;
 
 
     public bool dragOnSurfaces = true;
@@ -26,9 +27,12 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     private CanvasGroup canvasGroup;
     public bool isOver = false;
     public bool showGems = false;
+    [Range(0, 1)] public uint width;
+    [Range(0, 4)] public uint heigth;
 
     private Sprite[] Images  =>  !showGems && _imagesNoGems?.Length > 0 ? _imagesNoGems : _images;
     private Sprite ItemImage => equiped ? Images[1] : Images[0];
+    public Eqipment backPack;
 
 
     void Awake()
@@ -39,8 +43,14 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     void Start()
     {
+        backPack = FindObjectOfType<Eqipment>();
         initialPosition = transform.position;
         equiped = false;
+        for(int i = 0; i<width; i++)
+            for(int j = 0; j<heigth; j++)
+            {
+                backPack.eqipSlot[slotID + j + i * 5] = true; 
+            }
     }
 
     void Update()
@@ -60,7 +70,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 				{
                     if(_otherItem != null && _otherItem.equiped)
                         _otherItem.Unequip();
-					Equip();
+					Equip(_equipPosition.anchoredPosition);
 				}
 				else
 				{
@@ -85,17 +95,38 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
 	public void Unequip()
 	{
-		transform.position = initialPosition;
-		equiped = false;
-		gameObject.GetComponent<Image>().sprite = Images[0];
-	}
+		
+        if (backPack.FindFirstValidSlot(this))
+        {
+            for (int i = 0; i < width; i++)
+                for (int j = 0; j < heigth; j++)
+                {
+                    backPack.eqipSlot[slotID + j + i * 5] = true;
+                }
+            equiped = false;
+            gameObject.GetComponent<Image>().sprite = Images[0];
+            Vector3 pos = backPack.GetComponent<RectTransform>().localPosition;
+            pos.x += 5 + (slotID/5) * 50;
+            pos.y -= 5 + (slotID%5) * 50;
+           GetComponent<RectTransform>().localPosition = pos;
+        }
+        else
+        {
+            Debug.Log("False");
+        }
+    }
 
-	public void Equip()
+	public void Equip(Vector2 pos)
 	{
-		transform.position = _equipPosition.position;
+        GetComponent<RectTransform>().anchoredPosition = pos;
 		equiped = true;
 		gameObject.GetComponent<Image>().sprite = Images[1];
-	}
+        for (int i = 0; i < width; i++)
+            for (int j = 0; j < heigth; j++)
+            {
+                backPack.eqipSlot[slotID + j + i * 5] = false;
+            }
+    }
 
 	public void OnBeginDrag(PointerEventData eventData)
     {
