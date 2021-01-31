@@ -68,10 +68,11 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 			{
 				if (!equiped)
 				{
-                    if(_otherItem != null && _otherItem.equiped)
-                        _otherItem.Unequip();
+                    
 					Equip(_equipPosition.anchoredPosition);
-				}
+                    if (_otherItem != null && _otherItem.equiped)
+                        _otherItem.Unequip();
+                }
 				else
 				{
 					Unequip();
