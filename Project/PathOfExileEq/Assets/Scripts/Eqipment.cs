@@ -8,11 +8,25 @@ public class Eqipment : MonoBehaviour, IDropHandler
 {
 
     public bool[] eqipSlot;
-    
+    [SerializeField] public GameObject fullInfo;
+
 
     public void OnDrop(PointerEventData eventData)
     {
        
+    }
+
+    public void Stay()
+    {
+        fullInfo.SetActive(false);
+    }
+
+    public void Drop(GameObject item)
+    {
+        item.GetComponent<Item>().equiped = false;
+        item.transform.localScale = new Vector3(0.2f, 0.2f);
+        item.SetActive(false);
+        fullInfo.SetActive(false);
     }
 
     public bool FindFirstValidSlot(Item item)
