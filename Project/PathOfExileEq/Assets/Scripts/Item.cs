@@ -38,7 +38,7 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        canvasGroup = GetComponent<CanvasGroup>();
+        canvasGroup = GetComponent<CanvasGroup>(); 
     }
 
     void Start()
@@ -113,7 +113,9 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         }
         else
         {
-            Debug.Log("False");
+            backPack.fullInfo.SetActive(true);
+            Button[] buttons = backPack.fullInfo.GetComponentsInChildren<Button>();
+            buttons[1].onClick.AddListener(() => { backPack.Drop(gameObject); });
         }
     }
 
@@ -147,6 +149,8 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         canvasGroup.blocksRaycasts = true;
         
     }
+
+  
 
     public void OnPointerUp(PointerEventData eventData)
     {
